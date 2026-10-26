@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your cart – DropShop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">DropShop</a>
+    <nav>
+      <a href="index.html">Shop</a>
+      <a href="cart.html" class="cart-link">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Your cart</h2>
+    <div id="cart-items"></div>
+    <p class="total">Total: <strong id="cart-total">$0.00</strong></p>
+    <button class="btn" id="checkout">Checkout</button>
+    <p class="note">Checkout is a placeholder. Connect Stripe or PayPal to take real payments.</p>
+  </main>
+
+  <footer class="site-footer"><p>&copy; <span id="year"></span> DropShop</p></footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
